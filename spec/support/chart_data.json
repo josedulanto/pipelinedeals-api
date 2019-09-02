@@ -1,0 +1,38 @@
+[
+  {
+    "id": 727375,
+    "percent": 0,
+    "value": 799436.08,
+    "label": "Lost"
+  },
+  {
+    "id": 727378,
+    "percent": 10,
+    "value": 1073193.52,
+    "label": "Qualified"
+  },
+  {
+    "id": 727381,
+    "percent": 25,
+    "value": 1187818.46,
+    "label": "Request for Info"
+  },
+  {
+    "id": 727384,
+    "percent": 50,
+    "value": 874859.32,
+    "label": "Presentation"
+  },
+  {
+    "id": 727387,
+    "percent": 75,
+    "value": 639093.41,
+    "label": "Negotiation"
+  },
+  {
+    "id": 727390,
+    "percent": 100,
+    "value": 647072.56,
+    "label": "Won"
+  }
+]

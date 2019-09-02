@@ -1,0 +1,26 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+
+Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Exclude: ['db/migrate/*']
+
+Metrics/BlockLength:
+  ExcludedMethods: ['describe', 'context', 'configure']
+
+Metrics/MethodLength:
+  Exclude: ['db/migrate/*']
+
+Metrics/LineLength:
+  IgnoredPatterns: ['/^(describe|context)/']
+
+Style/MixinUsage:
+  Exclude: ['bin/*']
