@@ -1,0 +1,11 @@
+shared: &shared
+  pipelinedeals_api: https://api.pipelinedeals.com/api/v3
+
+development:
+  <<: *shared
+
+production:
+  <<: *shared
+
+test:
+  <<: *shared
